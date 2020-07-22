@@ -4,9 +4,7 @@ Written by: [Pasi "pahis" Huttunen](https://www.linkedin.com/in/pasihuttunen/) -
 
 Hashicorp has just published terraform-cdk - Cloud Development Kit for Terraform: https://github.com/hashicorp/terraform-cdk
 
-```
-The CDK for Terraform project helps users define infrastructure resources using supported programming languages and generates a Terraform configuration in JSON. Users can then use the Terraform or the CDK for Terraform CLI to deploy the application.
-```
+> The CDK for Terraform project helps users define infrastructure resources using supported programming languages and generates a Terraform configuration in JSON. Users can then use the Terraform or the CDK for Terraform CLI to deploy the application.
 
 This is so cool! It allows us to write IaC, but by using the languages we are using in our daily project life without drifting away from the battle-proven Terraform.
 
