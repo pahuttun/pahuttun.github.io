@@ -1,4 +1,4 @@
-# Let's try it out - Provision Azure with Python using CDK for Terraform, cdktf
+# Let's try it out - Provision Azure resources with Python using the new CDK for Terraform
 
 Written by: [Pasi "pahis" Huttunen](https://www.linkedin.com/in/pasihuttunen/) - 23.7.2020
 
@@ -7,6 +7,10 @@ Hashicorp has just published terraform-cdk - Cloud Development Kit for Terraform
 > The CDK for Terraform project helps users define infrastructure resources using supported programming languages and generates a Terraform configuration in JSON. Users can then use the Terraform or the CDK for Terraform CLI to deploy the application.
 
 This is so cool! It allows us to write IaC, but by using the languages we are using in our daily project life without drifting away from the battle-proven Terraform.
+
+Like this:
+
+![terraform cdk](img/terraform-cdk-azure-python.png)
 
 The current version 0.0.12 is pretty early, so things are quite rough on the edges. I wanted to test whether it is mature enough to actually deploy resources to Azure using Python.
 
